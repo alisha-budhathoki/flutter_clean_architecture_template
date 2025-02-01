@@ -1,0 +1,1 @@
+export 'core_hive_setup.dart';
