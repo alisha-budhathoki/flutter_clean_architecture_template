@@ -11,7 +11,6 @@ class DioClient {
 
   factory DioClient() => _instance;
 
-  /// Allows adding interceptors from outside `core`
   void addInterceptors(List<Interceptor> interceptors) {
     dio.interceptors.addAll(interceptors);
   }
